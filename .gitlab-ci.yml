@@ -4,6 +4,23 @@
 
 # After committing this template, visit CI/CD > Jobs to see the script output.
 
+stages:
+  - pre-build
+  - build
+  - test
+  - deploy
+  - post-build
+
+pre-build-job:
+  stage: pre-build
+  script:
+    - echo "Pre-step is run"
+
+post-build-job:
+  stage: post-build
+  script:
+    - echo "Post step is run"
+
 build-job:
   stage: build
   script:
