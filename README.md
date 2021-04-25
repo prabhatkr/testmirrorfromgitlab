@@ -2,4 +2,4 @@
 
 Test mirror from a remote git repo
 
-This line is added through web UI
+This line is added through web UI of Git Lab
